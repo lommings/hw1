@@ -15,12 +15,12 @@ u.password_confirmation = "12345678" # 最少要八碼
 u.is_admin = true
 u.save
 
-s = User.new
-s.email = "lomming@msn.com"           # 可以改成自己的 email
+#u = User.new
+#u.email = "lomming@msn.com"           # 可以改成自己的 email
 
-s.password = "1234"              # 最少要八碼
+#u.password = "1234"              # 最少要八碼
 
-s.password_confirmation = "1234" # 最少要八碼
+#u.password_confirmation = "1234" # 最少要八碼
 
-s.is_admin = true
-s.save
+#u.is_admin = true
+#u.save
